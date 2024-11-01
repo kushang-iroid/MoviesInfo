@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5154639709F36F582BA4821E /* Pods_Movies_Info.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC8BC1BD22F22C7B0A18510 /* Pods_Movies_Info.framework */; };
+		D8045BB22CD52D3A008ADB21 /* Caveat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8045BB02CD52D3A008ADB21 /* Caveat-Regular.ttf */; };
+		D8045BB32CD52D3A008ADB21 /* Caveat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8045BB12CD52D3A008ADB21 /* Caveat-SemiBold.ttf */; };
+		D8045BB42CD52D3A008ADB21 /* Caveat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8045BAF2CD52D3A008ADB21 /* Caveat-Medium.ttf */; };
+		D8045BB52CD52D3A008ADB21 /* Caveat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8045BAE2CD52D3A008ADB21 /* Caveat-Bold.ttf */; };
 		D85088312CD392A6005FC124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85088212CD392A6005FC124 /* Main.storyboard */; };
 		D85088352CD392A6005FC124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85088222CD392A6005FC124 /* ViewController.swift */; };
 		D85088362CD392A6005FC124 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850881E2CD392A6005FC124 /* Model.swift */; };
@@ -22,6 +26,10 @@
 		25A6ACA75F50E28057235BCC /* Pods-Movies Info.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movies Info.debug.xcconfig"; path = "Target Support Files/Pods-Movies Info/Pods-Movies Info.debug.xcconfig"; sourceTree = "<group>"; };
 		5BC8BC1BD22F22C7B0A18510 /* Pods_Movies_Info.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movies_Info.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CDD9A412C2DD0DFE04F168 /* Pods-Movies Info.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movies Info.release.xcconfig"; path = "Target Support Files/Pods-Movies Info/Pods-Movies Info.release.xcconfig"; sourceTree = "<group>"; };
+		D8045BAE2CD52D3A008ADB21 /* Caveat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-Bold.ttf"; sourceTree = "<group>"; };
+		D8045BAF2CD52D3A008ADB21 /* Caveat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-Medium.ttf"; sourceTree = "<group>"; };
+		D8045BB02CD52D3A008ADB21 /* Caveat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-Regular.ttf"; sourceTree = "<group>"; };
+		D8045BB12CD52D3A008ADB21 /* Caveat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-SemiBold.ttf"; sourceTree = "<group>"; };
 		D850881C2CD392A6005FC124 /* UIVIew-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew-Extension.swift"; sourceTree = "<group>"; };
 		D850881E2CD392A6005FC124 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D85088202CD392A6005FC124 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +69,17 @@
 				5BC8BC1BD22F22C7B0A18510 /* Pods_Movies_Info.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8045BAD2CD52D21008ADB21 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D8045BAE2CD52D3A008ADB21 /* Caveat-Bold.ttf */,
+				D8045BAF2CD52D3A008ADB21 /* Caveat-Medium.ttf */,
+				D8045BB02CD52D3A008ADB21 /* Caveat-Regular.ttf */,
+				D8045BB12CD52D3A008ADB21 /* Caveat-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		D850881D2CD392A6005FC124 /* Extensions */ = {
@@ -118,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				D850883C2CD392D4005FC124 /* Utility.swift */,
+				D8045BAD2CD52D21008ADB21 /* Font */,
 				D850881D2CD392A6005FC124 /* Extensions */,
 				D850881F2CD392A6005FC124 /* Model */,
 				D850882F2CD392A6005FC124 /* Screen */,
@@ -189,6 +209,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8045BB22CD52D3A008ADB21 /* Caveat-Regular.ttf in Resources */,
+				D8045BB32CD52D3A008ADB21 /* Caveat-SemiBold.ttf in Resources */,
+				D8045BB42CD52D3A008ADB21 /* Caveat-Medium.ttf in Resources */,
+				D8045BB52CD52D3A008ADB21 /* Caveat-Bold.ttf in Resources */,
 				D8C8D9BF2CD38E6400CB6C5D /* Assets.xcassets in Resources */,
 				D8C8D9C12CD38E6400CB6C5D /* LaunchScreen.storyboard in Resources */,
 				D85088312CD392A6005FC124 /* Main.storyboard in Resources */,
