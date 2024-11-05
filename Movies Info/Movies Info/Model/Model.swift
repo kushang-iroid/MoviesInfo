@@ -6,25 +6,14 @@
 //
 
 import Foundation
+import ObjectMapper
 
-class Notes: Codable {
-    var id: Int?
-    var title: String?
-    var notes: String?
-    var time: String?
-    var image: String?
-    var notesTheme: String?
-    var isLiked: Bool?
-    var isDeleted: Bool?
+class Response: Mappable {
+    var apiResponse: Feed?
     
-    init(id: Int? = nil, title: String? = nil, notes: String? = nil, time: String? = nil, image: String? = nil, notesTheme: String? = nil, isLiked: Bool? = nil, isDeleted: Bool? = nil) {
-        self.id = id
-        self.title = title
-        self.notes = notes
-        self.time = time
-        self.image = image
-        self.notesTheme = notesTheme
-        self.isLiked = isLiked
-        self.isDeleted = isDeleted
+    required init?(map: ObjectMapper.Map) { }
+    
+    func mapping(map: ObjectMapper.Map) {
+        apiResponse <- map["Feed"]
     }
 }

@@ -1,20 +1,32 @@
 PODS:
-  - Alamofire (5.10.1)
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - LTMorphingLabel (0.9.3)
+  - ObjectMapper (3.5.3)
   - Toast-Swift (5.1.1)
 
 DEPENDENCIES:
-  - Alamofire
+  - AlamofireObjectMapper (~> 5.2)
+  - LTMorphingLabel
   - Toast-Swift (~> 5.1.1)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AlamofireObjectMapper
+    - LTMorphingLabel
+    - ObjectMapper
     - Toast-Swift
 
 SPEC CHECKSUMS:
-  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  LTMorphingLabel: f2b256e4fe665aac27f0d0e8ccdcd79590f0cd70
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
   Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
 
-PODFILE CHECKSUM: 69a745b2baaedef4334e35a83ad00a7f6d297675
+PODFILE CHECKSUM: 02bc420f4d611f108e88ede7b6fefd04be84f557
 
 COCOAPODS: 1.15.2
